@@ -4,6 +4,10 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Shine smile</title>
+        <!-- fontawesome -->
+        <link rel="stylesheet" href="./assets/fontawesome/css/fontawesome.min.css" />
+        <link rel="stylesheet" href="./assets/fontawesome/css/solid.min.css" />
+        <link rel="stylesheet" href="./assets/fontawesome/css/brands.min.css" />
         <!-- Favicon  -->
         <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicons/apple-icon-57x57.png" />
         <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicons/apple-icon-60x60.png" />
@@ -58,8 +62,8 @@
         <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
         <link rel="stylesheet" href="./assets/css/style.css" />
     </head>
-    <body>
-        <header class="header" style="height: 5000px">
+    <body style="height: 5000px">
+        <header class="header">
             <div class="container">
                 <div class="header-top">
                     <a href="/">
@@ -73,18 +77,112 @@
                     </a>
                     <nav class="header-top__nav">
                         <div class="nav__list">
-                            <a href="#!" class="nav__item nav__item--active" title="Home">Home</a>
-                            <a href="#!" class="nav__item " title="Services">Services</a>
+                            <a href="#" class="nav__item nav__item--active" title="Home">Home</a>
+                            <a href="#service" class="nav__item" title="Services">Services</a>
                             <a href="#!" class="nav__item" title="About">About</a>
                             <a href="#!" class="nav__item" title="Doctors">Doctors</a>
                         </div>
                     </nav>
-                    <div class="action">
-                        <a href="#!" class="action-logIn">Log In</a>
+                    <div class="header__action">
+                        <a href="#!" class="action-logIn">Log&nbsp;In</a>
                         <a href="#!" class="action-signUp btn">Sign Up</a>
                     </div>
                 </div>
             </div>
         </header>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-wrap">
+                    <div class="hero__content">
+                        <h1 class="hero__heading">Exceptional dental care for all ages.</h1>
+                        <p class="hero__desc desc">
+                            Exceptional dental care for all ages. Your great smile begins with a
+                            great dentist.
+                        </p>
+                        <div class="hero__action">
+                            <button class="hero__btn btn">Book Online</button>
+                            <a href="tel:1234567890" class="hero__tel-action"
+                                >or call (123) 456-7890</a
+                            >
+                        </div>
+                    </div>
+                    <div class="hero__block-imgs">
+                        <img
+                            class="hero__img-left hero__img"
+                            src="./assets/img/hero-img-1.jpg"
+                            alt="" />
+                        <img
+                            class="hero__img-right hero__img"
+                            src="./assets/img/hero-img-2.jpg"
+                            alt="" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services" id="service">
+            <div class="container">
+                <div class="service_wrap">
+                    <div class="services-top">
+                        <h2 class="heading lv2">Our services</h2>
+                        <p class="services_desc desc">
+                            Exceptional dental care for all ages. Your great smile begins with a
+                            great dentist.
+                        </p>
+                    </div>
+                    <div class="services__content">
+                        <img src="./assets/img/services-img.jpg" alt="" class="services__img" />
+                        <div class="services__list">
+                            <div class="service__item service__item--active">
+                                <div class="circle">
+                                    <i class="fa-solid fa-tooth item__icon"></i>
+                                </div>
+                                <div class="item-desc">
+                                    <h3>
+                                        <a href="#!" class="heading item__heading">Oral Surgery</a>
+                                    </h3>
+                                    <p class="desc">
+                                        Everything you expect and then some. Cleanings, fillings,
+                                        and x-rays.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service__item">
+                                <div class="circle">
+                                    <i class="fa-solid fa-tooth item__icon"></i>
+                                </div>
+                                <div class="item-desc">
+                                    <h3>
+                                        <a href="#!" class="heading item__heading"
+                                            >Wisdom Teeth Removal</a
+                                        >
+                                    </h3>
+                                    <p class="desc">
+                                        Everything you expect and then some. Cleanings, fillings,
+                                        and x-rays.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service__item">
+                                <div class="circle">
+                                    <i class="fa-solid fa-tooth item__icon"></i>
+                                </div>
+                                <div class="item-desc">
+                                    <h3>
+                                        <a href="#!" class="heading item__heading"
+                                            >Preventative Dentistry</a
+                                        >
+                                    </h3>
+                                    <p class="desc">
+                                        Everything you expect and then some. Cleanings, fillings,
+                                        and x-rays.
+                                    </p>
+                                </div>
+                            </div>
+                            <button class="services-action btn">All Services</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
