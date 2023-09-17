@@ -387,6 +387,11 @@ a {
     background: #f6fbff;
 }
 
+.work__desc {
+    margin-top: 18px;
+    width: 468px;
+}
+
 .work__list {
     padding-top: 86px;
     display: grid;
@@ -395,7 +400,7 @@ a {
 }
 
 .work-item {
-    --transition-duration: 0.3s;
+    --transition-duration: 0.4s;
     padding: 42px 43px;
     border: 16px solid #eaf6ff;
     border-radius: 4px;
