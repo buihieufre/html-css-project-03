@@ -395,7 +395,7 @@ a {
 }
 
 .work-item {
-    --transition-duration: 1.3s;
+    --transition-duration: 0.3s;
     padding: 42px 43px;
     border: 16px solid #eaf6ff;
     border-radius: 4px;
@@ -409,7 +409,6 @@ a {
 
 .work-item:hover .work-item__action {
     font-weight: 400;
-    color: #2e80ce;
 }
 
 .work-item__heading {
@@ -427,7 +426,6 @@ a {
 .work-item__action {
     display: inline-block;
     margin-top: 18px;
-    color: #575f66;
+    color: #2e80ce;
     font-weight: 300;
-    transition: 0.8s;
 }
