@@ -434,3 +434,47 @@ a {
     color: #2e80ce;
     font-weight: 300;
 }
+
+/* =============== About =============== */
+
+.about {
+    padding: 170px 0;
+}
+
+.about-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about__block-imgs {
+    display: flex;
+    flex-shrink: 0;
+}
+
+.about__img {
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.about__img-1 {
+    width: 512px;
+    height: 370px;
+}
+
+.about__img-2 {
+    margin-left: -274px;
+    margin-top: 121px;
+    width: 332px;
+    height: 370px;
+}
+
+.about__content {
+    flex-grow: 0;
+    margin-left: 30px;
+    width: 40.1%;
+}
+
+.about__desc {
+    padding: 18px 0 38px;
+}
