@@ -63,6 +63,7 @@
         <link rel="stylesheet" href="./assets/css/style.css" />
     </head>
     <body style="height: 5000px">
+        <!-- Header -->
         <header class="header">
             <div class="container">
                 <div class="header-top">
@@ -79,8 +80,8 @@
                         <div class="nav__list">
                             <a href="#" class="nav__item nav__item--active" title="Home">Home</a>
                             <a href="#service" class="nav__item" title="Services">Services</a>
-                            <a href="#!" class="nav__item" title="About">About</a>
-                            <a href="#!" class="nav__item" title="Doctors">Doctors</a>
+                            <a href="#about" class="nav__item" title="About">About</a>
+                            <a href="#team" class="nav__item" title="Doctors">Doctors</a>
                         </div>
                     </nav>
                     <div class="header__action">
@@ -90,7 +91,9 @@
                 </div>
             </div>
         </header>
+        <!-- Main -->
         <main>
+            <!-- Hero section -->
             <section class="hero">
                 <div class="container">
                     <div class="hero-wrap">
@@ -122,6 +125,7 @@
                     </div>
                 </div>
             </section>
+            <!-- Services section -->
             <section class="services" id="service">
                 <div class="container">
                     <div class="service_wrap">
@@ -189,7 +193,8 @@
                     </div>
                 </div>
             </section>
-            <section class="work">
+            <!-- Work section -->
+            <section class="work" id="work">
                 <div class="container">
                     <div class="work-wrap">
                         <h2 class="heading lv2">How it works</h2>
@@ -232,12 +237,19 @@
                     </section>
                 </div>
             </section>
-            <section class="about">
+            <!-- About section -->
+            <section class="about" id="about">
                 <div class="container">
                     <div class="about-wrap">
                         <figure class="about__block-imgs">
-                            <img src="./assets/img/about-img-1.jpg" alt="" class="about__img about__img-1" />
-                            <img src="./assets/img/about-img-2.jpg" alt="" class="about__img about__img-2" />
+                            <img
+                                src="./assets/img/about-img-1.jpg"
+                                alt=""
+                                class="about__img about__img-1" />
+                            <img
+                                src="./assets/img/about-img-2.jpg"
+                                alt=""
+                                class="about__img about__img-2" />
                         </figure>
                         <section class="about__content">
                             <h2 class="heading lv2">Take back your smile with shine.</h2>
@@ -245,8 +257,122 @@
                                 If you’re missing multiple teeth due to decay, injury, or the
                                 natural aging process, dentures might be the perfect solution.
                             </p>
-                            <a href="" class="btn">Learn More</a>
+                            <a href="#!" class="btn">Learn More</a>
                         </section>
+                    </div>
+                </div>
+                <!-- Team -->
+            </section>
+            <section class="team" id="team">
+                <div class="container">
+                    <div class="team-wrap">
+                        <section class="team__top">
+                            <h2 class="heading lv2">Our virtual dentist</h2>
+                            <a href="" class="btn meet-dentist-btn">Meet our dentist</a>
+                        </section>
+                        <section class="dentist-list">
+                            <figure class="dentist-item">
+                                <div class="dentist-img__background">
+                                    <img
+                                        src="./assets/img/team-img-1.png"
+                                        alt=""
+                                        class="dentist-img" />
+                                </div>
+                                <figcaption class="dentist-name">Dr. Essence Page</figcaption>
+                                <p class="dentist-desc">DDS, California - Linda University</p>
+                            </figure>
+                            <figure class="dentist-item">
+                                <div class="dentist-img__background">
+                                    <img
+                                        src="./assets/img/team-img-2.png"
+                                        alt=""
+                                        class="dentist-img" />
+                                </div>
+                                <figcaption class="dentist-name">Dr. Essence Page</figcaption>
+                                <p class="dentist-desc">DDS, California - Linda University</p>
+                            </figure>
+                            <figure class="dentist-item">
+                                <div class="dentist-img__background">
+                                    <img
+                                        src="./assets/img/team-img-3.png"
+                                        alt=""
+                                        class="dentist-img" />
+                                </div>
+                                <figcaption class="dentist-name">Dr. Essence Page</figcaption>
+                                <p class="dentist-desc">DDS, California - Linda University</p>
+                            </figure>
+                            <figure class="dentist-item">
+                                <div class="dentist-img__background">
+                                    <img
+                                        src="./assets/img/team-img-4.png"
+                                        alt=""
+                                        class="dentist-img" />
+                                </div>
+                                <figcaption class="dentist-name">Dr. Essence Page</figcaption>
+                                <p class="dentist-desc">DDS, California - Linda University</p>
+                            </figure>
+                        </section>
+                        <div class="wrap-btn">
+                            <button class="btn-back">
+                                <svg
+                                    width="6"
+                                    height="12"
+                                    viewBox="0 0 6 12"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M5.5 1L0.5 6L5.5 11"
+                                        stroke="currentColor"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                            <button class="btn-next">
+                                <svg
+                                    width="6"
+                                    height="12"
+                                    viewBox="0 0 6 12"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0.5 1L5.5 6L0.5 11"
+                                        stroke="currentColor"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- CTA -->
+            </section>
+            <section class="cta" id="cta">
+                <div class="container">
+                    <div class="cta-wrap">
+                        <img src="./assets/img/cta-img.png" alt="" class="cta__img" />
+                        <div class="cta__content">
+                            <h2 class="heading lv2 cta__heading">
+                                Take back your smile with dentures
+                            </h2>
+                            <p class="cta__desc desc">
+                                If you’re missing multiple teeth due to decay, injury, or the
+                                natural aging process, dentures might be the perfect solution.
+                            </p>
+                            <div class="cta__wrap-btn">
+                                <a href="https://play.google.com/store/games" target="_blank">
+                                    <img
+                                        src="./assets/img/cta-googleplay.svg"
+                                        alt=""
+                                        class="cta__btn-1" />
+                                </a>
+                                <a href="https://www.apple.com/app-store/" target="_blank">
+                                    <img
+                                        src="./assets/img/cta-appstore.svg"
+                                        alt=""
+                                        class="cta__btn-2" />
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>

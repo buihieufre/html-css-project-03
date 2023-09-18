@@ -478,3 +478,134 @@ a {
 .about__desc {
     padding: 18px 0 38px;
 }
+
+/* ================= Team ================ */
+
+.team {
+    padding-bottom: 170px;
+}
+
+.team__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meet-dentist-btn {
+    margin: 38px 0 70px;
+}
+
+.dentist-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+}
+
+.dentist-img__background {
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    border-radius: 6px;
+    background: #eaf6ff;
+}
+
+.dentist-img {
+    position: relative;
+    margin-top: 28px;
+    padding: 0 4px;
+    width: 100%;
+    aspect-ratio: 0.849;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+.dentist-img:hover {
+    scale: 1.05;
+}
+
+.dentist-name,
+.dentist-desc {
+    text-align: center;
+}
+
+.dentist-name {
+    margin-top: 12px;
+    color: #10375c;
+    text-align: center;
+    line-height: 1.75; /* 175% */
+}
+
+.dentist-desc {
+    color: #575f66;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.85; /* 185.714% */
+}
+
+.wrap-btn {
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+    column-gap: 18px;
+}
+
+.btn-back,
+.btn-next {
+    font-size: 18px;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #575f66;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.btn-back:hover,
+.btn-next:hover {
+    color: #fff;
+    background: #2e80ce;
+}
+
+/* ================ cta ============== */
+
+.cta {
+    padding: 95px 0 170px;
+}
+
+.cta-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 76px 70px;
+    border-radius: 4px;
+    background: #2e80ce;
+}
+
+.cta__img {
+    position: absolute;
+    bottom: 0;
+    left: 70px;
+}
+
+.cta__content {
+    width: 57%;
+    margin-left: auto;
+}
+
+.cta__heading,
+.cta__desc {
+    color: #fff;
+}
+
+.cta__heading {
+    width: 489px;
+    margin-bottom: 18px;
+}
+
+.cta__wrap-btn {
+    margin-top: 38px;
+}
+
+.cta__btn-2 {
+    margin-left: 28px;
+}
