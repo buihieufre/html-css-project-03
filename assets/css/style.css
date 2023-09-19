@@ -17,6 +17,15 @@ body {
 }
 
 /* Common */
+
+input,
+textarea,
+button,
+select {
+    font-family: inherit;
+    font-family: inherit;
+}
+
 .container {
     max-width: calc(100% - 48px);
     width: 1170px;
@@ -660,12 +669,12 @@ a {
     box-shadow: 0px 18px 50px 0px rgba(0, 0, 0, 0.05);
 }
 
-.blog-item:hover .blog-item__more {
+.blog-item__more:hover {
     color: #2e80ce;
 }
 
 .blog-item:hover .blog-item__content {
-    border-color: #fff ;
+    border-color: #fff;
 }
 
 .blog-item__img {
@@ -730,4 +739,119 @@ a {
 
 .cta-2__btn {
     margin-top: 38px;
+}
+
+/* ===========  footer ========== */
+
+.footer {
+    background: #10375c;
+    font-family: "Open Sans", sans-serif;
+}
+
+.footer-wrap {
+    display: grid;
+    grid-template-columns: 1fr 0.41fr 0.41fr 1fr;
+    column-gap: 78px;
+    padding-top: 100px;
+}
+
+.footer__desc {
+    margin: 20px 0 10px;
+    font-size: 1.6rem;
+    line-height: 1.75; /* 175% */
+    color: #a9b3bb;
+}
+
+.footer__heading {
+    padding-bottom: 10px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75; /* 175% */
+    color: #fff;
+}
+
+.footer__item {
+    display: inline-block;
+    padding: 10px 0;
+    font-size: 1.4rem;
+    line-height: 1.85; /* 185.714% */
+    color: #a9b3bb;
+}
+
+.footer__heading-below {
+    margin-top: 18px;
+}
+
+.footer-social__list {
+    display: flex;
+    column-gap: 10px;
+}
+
+.footer-social__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.footer__icon {
+    color: #2e80ce;
+}
+
+.footer-social__item:hover {
+    background: #2e80ce;
+}
+
+.footer-social__item:hover .footer__icon {
+    color: #fff;
+}
+
+.footer-subcrib__desc {
+    margin-top: 10px;
+}
+
+.footer-form {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.footer-form__input {
+    padding: 10px;
+    width: 212px;
+    height: 46px;
+    border-radius: 4px;
+    border: 1px solid #406181;
+    color: #fff;
+    background: transparent;
+}
+
+.footer-form__input::placeholder {
+    font-size: 1.4rem;
+    line-height: 1.85; /* 185.714% */
+    color: #9ca8b1;
+}
+
+.footer-form__btn {
+    min-width: 108px;
+    line-height: 46px;
+    border-radius: 4px;
+}
+
+.footer__copyright {
+    margin-top: 18px;
+    border-top: 1px solid #406181;
+}
+
+.footer__copyright-text {
+    padding: 28px 0 42px;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.85; /* 185.714% */
+    color: #aab3ba;
 }
