@@ -687,3 +687,35 @@ a {
     font-size: 1.4rem;
     color: var(--primary-color);
 }
+
+/* ============ cta-2 =========== */
+
+.cta-2 {
+    margin-bottom: 170px;
+}
+
+.cta-2-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 179px;
+    background: #f6fbff;
+}
+
+.cta-2__desc {
+    width: 617px;
+    text-align: center;
+}
+
+.cta-2__desc::before {
+    content: "";
+    display: block;
+    width: 136px;
+    height: 2px;
+    background: #2e80ce;
+    margin: 18px auto;
+}
+
+.cta-2__btn {
+    margin-top: 38px;
+}
